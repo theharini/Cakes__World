@@ -31,3 +31,45 @@
     width: 5rem;
     border-radius: 15px;
 }
+
+
+/* HEADING START */
+section{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#Home{
+background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,4)),url(/assests/css/img/cake.jpg);
+background-size: cover;
+background-position: center;
+flex-direction: column;
+}
+#Home h1{
+    font-size:70px;
+    color:white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:0px 1px 0px #ccc,
+                0px 2px 0px #ccc,
+                0px 3px 0px #ccc,
+                0px 4px 0px #ccc,
+                0px 5px 0px #ccc,
+                0px 6px 0px #ccc,
+                0px 7px 0px #ccc,
+}
+#Home p{
+    color: white;
+    font-size:18px;
+}
+#Home .input-group{
+    width:40%;
+    height:45px;
+}
+.signin{
+    background-color: rgb(255, 0, 162) !important;
+    color:white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
