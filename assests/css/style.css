@@ -116,3 +116,21 @@ flex-direction: column;
     transition:.2s;
 }
 /* PRODUCT SECTION END */
+
+
+/* CONTACT US START */
+.box{
+    width:80% !important;
+    margin-top:10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin:10px 0px;
+}
+#contact textarea{
+    margin:10px 0px;
+}
+/* CONTACT US END */
